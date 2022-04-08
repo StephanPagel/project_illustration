@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif; */
+
+/* Farbe: #202020, #24bff2, #fff, #F5FBFE.
+Farbe social media: #3b5998, #fcaf45, #55acee, #c4302b
+ */
+
+/* =================================================================
+            GENERAL STYLE
+================================================================= */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    /* width: 35vw; */
+    padding-top: 20px;
+    line-height: 35px;
+}
+
+/* =================================================================
+            HEADER STYLE
+================================================================= */
+
+header nav ul {
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+header {
+    background-image: url("../img/illustration1.gif");
+    background-size: 35vw;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+header section {
+    padding: 30vh 0 50vh 10vw;
+    font-family: 'Merriweather', serif;
+}
+
+header section p {
+    font-size: 20px;
+    width: 35vw;
+    padding-top: 20px;
+    line-height: 35px;
+}
+
+header section a:nth-of-type(1) {
+    padding: 15px 25px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px 10px 0 0;
+    display: inline-block;
+}
+
+header section a:nth-of-type(2) {
+    padding: 15px 25px;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px 10px 0 0;
+    display: inline-block;
+    box-shadow: 1px 1px 1px rgba(12, 12, 12, 0.5);
+    border: 0.5px solid grey;
+}
+
+/* =================================================================
+            MAIN STYLE
+================================================================= */
+
+main {
+    margin: 0 10vw;
+}
+
+/* =================================================================
+            SECTION REAL BEAUTY STYLE
+================================================================= */
+
+main section:first-child {
+    padding: 0 0 20vh 40vw;
+}
+
+main section:first-child h1:first-child {
+    padding-top: 30vh;
+}
+
+main section:first-child {
+    background-image: url("../img/illustration2.png");
+    background-size: 35vw;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+/* =================================================================
+            SECTION EXPRESSNIVENESS
+================================================================= */
+
+main section:nth-of-type(2) {
+    padding: 50vh 0 50vh 0;
+}
+
+main section:nth-of-type(2) {
+    background-image: url("../img/illustration3.png");
+    background-size: 35vw;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+main section:nth-of-type(2) p {
+    width: 30vw;
+}
+
+/* =================================================================
+            ARTICLE ILLUSTRATIONS
+================================================================= */
+
+main article:nth-of-type(1) {
+    text-align: center;
+    margin-top: 12vh;
+}
+
+main article:nth-of-type(1) p {
+    display: inline-block;
+    width: 58vw;
+}
+
+/* =================================================================
+            SECTION 3 PICS
+================================================================= */
+
+main section:nth-of-type(3) {
+    text-align: center;
+}
+
+main section:nth-of-type(3) img {
+    width: 25%;
+    margin: 20vh 2vw 15vh 2vw;
+}
+
+main section:nth-of-type(3) img:hover {
+    box-shadow: 3px 3px 3px 3px rgba(167, 167, 167, 0.5);
+}
+
+/* =================================================================
+            ARTICLE EXAMPLES
+================================================================= */
+
+main article:nth-of-type(2) {
+    text-align: center;
+    margin-top: 12vh;
+    margin-bottom: 20vh;
+}
+
+main article:nth-of-type(2) p {
+    display: inline-block;
+    width: 46vw;
+}
+
+/* =================================================================
+            SECTION 6 PICS
+================================================================= */
+
+main section:nth-of-type(4) {
+    text-align: center;
+}
+
+main section:nth-of-type(4) img {
+    width: 44%;
+    margin: 10vh 2vw 10vh 2vw;
+}
+
+main section:nth-of-type(4) img:hover {
+    box-shadow: 3px 3px 3px 3px rgba(167, 167, 167, 0.5);
+}
+
+/* =================================================================
+            ARTICLE DOWNLOAD
+================================================================= */
+
+main article:nth-of-type(3) {
+    text-align: center;
+    margin-top: 15vh;
+    margin-bottom: 20vh;
+}
+
+main article:nth-of-type(3) p {
+    display: inline-block;
+    width: 47vw;
+}
+
+/* =================================================================
+            ARTICLE MEMBERSHIP
+================================================================= */
+
+main article:nth-of-type(4) {
+    margin: 0 auto;
+    text-align: center;
+    width: 25vw;
+    background-color: #f3fdff;
+}
+
+main article:nth-of-type(4)>p:nth-of-type(1) {
+    padding: 40px 0;
+    font-weight: 700;
+}
+
+main article:nth-of-type(4)>p:nth-of-type(2) {
+    font-size: 50px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+main article:nth-of-type(4)>p:nth-of-type(3) {
+    color: grey;
+    padding-bottom: 15px;
+}
+
+main article:nth-of-type(4) div p {
+    font-size: 16px;
+    line-height: 10px;
+}
+
+main article:nth-of-type(4) div {
+    margin-bottom: 40px;
+}
+
+main article:nth-of-type(4)>p:nth-of-type(4) {
+    display: inline-block;
+    color: white;
+    background: #24bff2;
+    padding: 10px 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+main>h1 {
+    text-align: center;
+    margin: 30vh 0 15vh 0;
+}
+
+/* =================================================================
+            FOOTER
+================================================================= */
+
+footer {
+    text-align: center;
+}
+
+footer p:nth-of-type(odd) {
+    color: grey;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+footer a:nth-of-type(1):before {
+    content: ".";
+    font-size: 70px;
+    color: blue;
+}
+
+footer a:nth-of-type(2):before {
+    content: ".";
+    font-size: 70px;
+    color: rgb(234, 211, 3);
+}
+
+footer a:nth-of-type(3):before {
+    content: ".";
+    font-size: 70px;
+    color: lightblue;
+}
+
+footer a:nth-of-type(4):before {
+    content: ".";
+    font-size: 70px;
+    color: red;
+}
